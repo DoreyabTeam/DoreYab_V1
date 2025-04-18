@@ -1,0 +1,61 @@
+﻿@using DoreYab.Application.Contract.CourseCategory
+@model List<CourseCategoryViewModel>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="float-left">Course Category List</h3>
+        <div class="float-right">
+            <a class="btn btn-success" asp-action="Create" asp-controller="Category" asp-area="Admin">Add New</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>CreationDate</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var courseCategory in Model)
+                {
+                    <tr>
+                        <td>@courseCategory.Id</td>
+                        <td>@courseCategory.Title</td>
+                        <td>
+                            @if (courseCategory.IsDeleted)
+                            {
+                                <i class="fa fa-close fa-2x text-danger"></i>
+                            }
+                            else
+                            {
+                                <i class="fa fa-check fa-2x text-success"></i>
+                            }
+                        </td>
+                        <td>@courseCategory.CreationDate</td>
+                        <td>
+                            <a class="btn btn-warning float-left mr-3" asp-action="Edit" asp-controller="Category" asp-route-id="@courseCategory.Id">Rename</a>
+                            @if (courseCategory.IsDeleted)
+                            {
+                                <form method="post" asp-action="Activate" asp-controller="Category">
+                                    <button class="btn btn-success">Activate</button>
+                                    <input type="hidden" name="id" value="@courseCategory.Id" />
+                                </form>
+                            }
+                            else
+                            {
+                                <form method="post" asp-action="Remove" asp-controller="Category">
+                                    <button class="btn btn-danger">Remove</button>
+                                    <input type="hidden" name="id" value="@courseCategory.Id" />
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
