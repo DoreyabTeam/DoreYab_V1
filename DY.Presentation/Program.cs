@@ -15,6 +15,7 @@ namespace DY.Presentation
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddInfrastructure(builder.Configuration);
 
             builder.Services.AddTransient<ICourseCategoryApplication, CourseCategoryApplication>();
             builder.Services.AddTransient<ICourseCategoryRepository, CourseCategoryRepository>();
@@ -38,6 +39,7 @@ namespace DY.Presentation
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

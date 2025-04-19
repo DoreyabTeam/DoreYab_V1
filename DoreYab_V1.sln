@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Inferastructure.EfCore",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Presentation", "DY.Presentation\DY.Presentation.csproj", "{0050E9B6-6DAE-4C82-8089-6A6E4654590E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Presentation.MVC", "DY.Presentation.MVC\DY.Presentation.MVC.csproj", "{A3882C6E-263E-4BD2-A552-0D76F95A98AF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,10 +47,6 @@ Global
 		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,7 +58,6 @@ Global
 		{B065CAA8-D45D-4F34-B481-174E5F88CD43} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 		{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 		{0050E9B6-6DAE-4C82-8089-6A6E4654590E} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
-		{A3882C6E-263E-4BD2-A552-0D76F95A98AF} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE7E37B8-42E5-4AE0-A270-56013320B054}
