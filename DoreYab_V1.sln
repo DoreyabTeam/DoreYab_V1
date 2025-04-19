@@ -5,15 +5,19 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoreYab_V1", "DoreYab_V1", "{E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{CD3D4B55-ACC4-446E-AE72-F0448E412B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Framework", "0_Framework\0_Framework.csproj", "{CD3D4B55-ACC4-446E-AE72-F0448E412B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DY.Domain", "DY.Domain\DY.Domain.csproj", "{A65B2BA6-C536-4858-B49D-476C9727E719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Domain", "DY.Domain\DY.Domain.csproj", "{A65B2BA6-C536-4858-B49D-476C9727E719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DY.Application.Contract", "DY.Application.Contract\DY.Application.Contract.csproj", "{C3E4C23B-72C8-447E-AD36-260C49573E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Application.Contract", "DY.Application.Contract\DY.Application.Contract.csproj", "{C3E4C23B-72C8-447E-AD36-260C49573E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DY.Application", "DY.Application\DY.Application.csproj", "{B065CAA8-D45D-4F34-B481-174E5F88CD43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Application", "DY.Application\DY.Application.csproj", "{B065CAA8-D45D-4F34-B481-174E5F88CD43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DY.Inferastructure.EfCore", "DY.Inferastructure.EfCore\DY.Inferastructure.EfCore.csproj", "{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Inferastructure.EfCore", "DY.Inferastructure.EfCore\DY.Inferastructure.EfCore.csproj", "{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Presentation", "DY.Presentation\DY.Presentation.csproj", "{0050E9B6-6DAE-4C82-8089-6A6E4654590E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DY.Presentation.MVC", "DY.Presentation.MVC\DY.Presentation.MVC.csproj", "{A3882C6E-263E-4BD2-A552-0D76F95A98AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,14 @@ Global
 		{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0050E9B6-6DAE-4C82-8089-6A6E4654590E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3882C6E-263E-4BD2-A552-0D76F95A98AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +63,8 @@ Global
 		{C3E4C23B-72C8-447E-AD36-260C49573E6B} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 		{B065CAA8-D45D-4F34-B481-174E5F88CD43} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 		{AD0ADCC3-0F53-4AE8-A329-BE31901D4F86} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
+		{0050E9B6-6DAE-4C82-8089-6A6E4654590E} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
+		{A3882C6E-263E-4BD2-A552-0D76F95A98AF} = {E8D1A37F-23B8-4F84-AEC2-C2BCF67AC159}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE7E37B8-42E5-4AE0-A270-56013320B054}
