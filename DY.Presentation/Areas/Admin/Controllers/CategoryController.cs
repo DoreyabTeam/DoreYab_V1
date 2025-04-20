@@ -1,4 +1,4 @@
-﻿using DoreYab.Application.Contract.CourseCategory;
+﻿using DoreYab_V1.Application.Contract.CourseCategory;
 using DY.Application.Contract.CourseCategory;
 using Microsoft.AspNetCore.Mvc;
 
