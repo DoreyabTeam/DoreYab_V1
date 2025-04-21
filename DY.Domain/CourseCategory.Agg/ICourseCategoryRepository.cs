@@ -1,4 +1,4 @@
-﻿namespace DoreYab_V1.Domain.CourseCategoryAgg
+﻿namespace DoreYab.Domain.CourseCategoryAgg
 {
     public interface ICourseCategoryRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace DoreYab_V1.Application.Contract.CourseCategory
+﻿namespace DoreYab.Application.Contract.CourseCategory
 {
     public class CourseCategoryViewModel
     {

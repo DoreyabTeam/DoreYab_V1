@@ -1,7 +1,7 @@
 ﻿using _0_Framework.Domain;
-using DoreYab_V1.Domain.CourseCategoryAgg;
+using DoreYab.Domain.CourseCategoryAgg;
 
-namespace DoreYab_V1.Domain.CourseAgg
+namespace DoreYab.Domain.CourseAgg
 {
     public class Course : EntityBase
     {

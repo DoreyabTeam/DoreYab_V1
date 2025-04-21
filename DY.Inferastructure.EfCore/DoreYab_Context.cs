@@ -1,9 +1,9 @@
-﻿using DoreYab_V1.Domain.CourseAgg;
-using DoreYab_V1.Domain.CourseCategoryAgg;
-using DoreYab_V1.Inferastracture.Efcore.Mapping;
+﻿using DoreYab.Domain.CourseAgg;
+using DoreYab.Domain.CourseCategoryAgg;
+using DoreYab.Inferastracture.Efcore.Mapping;
 using Microsoft.EntityFrameworkCore;
 
-namespace DoreYab_V1.Inferastracture.Efcore
+namespace DoreYab.Inferastracture.Efcore
 {
     public class DoreYabContext : DbContext
     {

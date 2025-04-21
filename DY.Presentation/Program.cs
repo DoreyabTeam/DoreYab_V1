@@ -1,7 +1,7 @@
-using DoreYab_V1.Application.CourseCategory;
-using DoreYab_V1.Domain.CourseCategoryAgg;
-using DoreYab_V1.Inferastracture.Efcore;
-using DoreYab_V1.Inferastracture.Efcore.Repository;
+using DoreYab.Application.CourseCategory;
+using DoreYab.Domain.CourseCategoryAgg;
+using DoreYab.Inferastracture.Efcore;
+using DoreYab.Inferastracture.Efcore.Repository;
 using DY.Application.Contract.CourseCategory;
 using Microsoft.EntityFrameworkCore;
 

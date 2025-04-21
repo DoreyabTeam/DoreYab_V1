@@ -1,4 +1,4 @@
-﻿using DoreYab_V1.Application.Contract.CourseCategory;
+﻿using DoreYab.Application.Contract.CourseCategory;
 using System;
 using System.Collections.Generic;
 using System.Linq;

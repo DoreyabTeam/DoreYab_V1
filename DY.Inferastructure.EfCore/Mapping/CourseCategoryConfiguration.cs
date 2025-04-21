@@ -1,8 +1,8 @@
-﻿using DoreYab_V1.Domain.CourseCategoryAgg;
+﻿using DoreYab.Domain.CourseCategoryAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DoreYab_V1.Inferastracture.Efcore.Mapping
+namespace DoreYab.Inferastracture.Efcore.Mapping
 {
     public class CourseCategoryConfiguration : IEntityTypeConfiguration<CourseCategory>
     {

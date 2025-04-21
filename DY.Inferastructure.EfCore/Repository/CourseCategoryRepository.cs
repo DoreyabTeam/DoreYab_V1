@@ -1,6 +1,6 @@
-﻿using DoreYab_V1.Domain.CourseCategoryAgg;
+﻿using DoreYab.Domain.CourseCategoryAgg;
 
-namespace DoreYab_V1.Inferastracture.Efcore.Repository
+namespace DoreYab.Inferastracture.Efcore.Repository
 {
     public class CourseCategoryRepository : ICourseCategoryRepository
     {
