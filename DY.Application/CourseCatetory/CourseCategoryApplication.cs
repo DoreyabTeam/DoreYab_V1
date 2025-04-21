@@ -1,8 +1,8 @@
-﻿using DoreYab.Application.Contract.CourseCategory;
-using DoreYab.Domain.CourseCategoryAgg;
+﻿using DoreYab_V1.Application.Contract.CourseCategory;
+using DoreYab_V1.Domain.CourseCategoryAgg;
 using DY.Application.Contract.CourseCategory;
 
-namespace DoreYab.Application.CourseCategory
+namespace DoreYab_V1.Application.CourseCategory
 {
     public class CourseCategoryApplication : ICourseCategoryApplication
     {
